@@ -1,0 +1,49 @@
+.c-item {
+  height: 100vh;
+}
+.c-img {
+  height: 100%;
+  background-size: cover;
+  filter: brightness(0.5);
+}
+
+.foo22 {
+  background-color: #333;
+  color: white;
+  padding: 1rem;
+}
+.foo22 .text-primary {
+  color: #007bff;
+}
+.foo22 i {
+  margin: 0 10px;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s;
+}
+.hero-section {
+  position: relative;
+  height: 100vh;
+}
+.hero-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+}
+.navbar {
+  z-index: 1000;
+}
+.carousel-item {
+  height: 100vh;
+  background-color: black;
+}
+.carousel-item img {
+  object-fit: cover;
+  height: 100vh;
+  opacity: 0.7;
+}
